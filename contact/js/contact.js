@@ -8,7 +8,7 @@ $(document).ready(function(){
 			m = $("#message textarea").val();
 		
 		$.ajax({
-			url: 'mail.php',
+			url: 'https://raw.githack.com/Mostafa4Ramadan/php/main/contact/mail.php',
 			method: 'POST',
 			data: {name:n, phone:p, email:e, message:m},
 			beforeSend: function()
