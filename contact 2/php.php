@@ -3,7 +3,7 @@
 if(isset($_POST['email'])) {
 
     // قم بتعديل السطرين أدناه
-    $email_to = "email@websitecom";
+    $email_to = "me.tech4blog@gmail.com";
     $email_subject = "Email from :";
 
     $first_name = $_POST['first_name']; // required
@@ -34,7 +34,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 <?php
     echo "<script type='text/javascript'>alert('شكرا لتواصلك، سيتم قراءة الرسالة والرد بأقرب وقت ممكن')</script>";
-    echo "<script> window.location.assign('../index.html'); </script>";
+    echo "<script> window.location.assign('https://me-tech-blog.blogspot.com/'); </script>";
 ?> 
  
 <?php
