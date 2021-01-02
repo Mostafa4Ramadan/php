@@ -4,7 +4,7 @@ if(isset($_POST['email'])) {
 
     // قم بتعديل السطرين أدناه
     $email_to = "me.tech4blog@gmail.com";
-    $email_subject = "Email from :";
+    $email_subject = "رسالة من زائر ME-Tech";
 
     $first_name = $_POST['first_name']; // required
     $last_name = $_POST['last_name']; // required
